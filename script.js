@@ -62,11 +62,6 @@ var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (errors === 0) {
     var message = document.getElementById("message-box");
     message.innerHTML = "Thank you!";
-    fname.value = "";
-    lname.value = "";
-    email.value = "";
-    phone.value = "";
-    messageField.value = "";
   }else{
     e.preventDefault();
   }
